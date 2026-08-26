@@ -4,6 +4,6 @@ idf_component_register(
     "onewire_bus_impl_rmt.c"
     "onewire_bus_impl_uart.c"    
     "onewire_bus_api.c"   
-    INCLUDE_DIRS "." 
+    INCLUDE_DIRS "include" 
     REQUIRES driver      
 )
