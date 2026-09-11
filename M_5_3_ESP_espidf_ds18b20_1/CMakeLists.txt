@@ -1,0 +1,3 @@
+cmake_minimum_required(VERSION 3.16.0)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(M_5_3_ESP_espidf_ds18b20_1)

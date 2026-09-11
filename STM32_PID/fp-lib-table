@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "YD-STM32F401-main") (type "KiCad") (uri "${KIPRJMOD}/YD-STM32F401-main") (options "") (descr ""))
+)

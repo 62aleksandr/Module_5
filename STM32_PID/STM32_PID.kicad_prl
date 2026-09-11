@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "ESP32_Motor.kicad_prl",
+    "filename": "STM32_PID.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -94,12 +94,12 @@
     "col_widths": [
       186,
       171,
-      114,
-      122,
-      137,
-      125,
-      118,
-      106,
+      112,
+      79,
+      112,
+      112,
+      112,
+      83,
       112,
       112
     ],

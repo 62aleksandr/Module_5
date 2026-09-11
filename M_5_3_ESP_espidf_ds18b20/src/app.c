@@ -128,6 +128,7 @@ void app_run(void)
 	vTaskDelay(pdMS_TO_TICKS(1000));
 	// trigger temperature conversion for all sensors on the bus
 	ESP_ERROR_CHECK(ds18b20_trigger_temperature_conversion_for_all(bus));
+
 	for (int i = 0; i < ds18b20_device_num; i++)
 	{
 		// Отримання температури конкретного DS18B20
